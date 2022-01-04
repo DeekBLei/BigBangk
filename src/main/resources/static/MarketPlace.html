@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MarketPlace</title>
+    <link rel="stylesheet" href="stylesheets/MarketPlaceCSS.css">
+    <!--    GraphJs  verwijder degene die niet gbruikt wordt-->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+    <!--    <script src="scripts/Graphjs.js"> </script>-->
+    <!--    Goole graph verwijder degene die niet gbruikt wordt-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="scripts/GoogleGraph.js"></script>
+
+    <script defer src="scripts/URLs.js"></script>
+    <!-- ToDO   Dummy login verwijderen bij online gaan-->
+    <script defer src="scripts/DummyLogin.js"></script>
+
+    <script type="module" defer src="scripts/MarketPlace.js"></script>
+
+
+</head>
+<body>
+
+<div class="tabel" id="assetListContainer">
+    <div id="kolomnamen">
+        <label id="name">Code</label>
+        <label>Name</label>
+        <label>Price in Euro's</label>
+        <div id="graphContainer">
+            <div></div>
+        </div>
+        <div class="tradeButton"></div>
+    </div>
+</div>
+
+</body>
+</html>
